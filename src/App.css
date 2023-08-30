@@ -1,0 +1,54 @@
+/* app.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column; /* Center content horizontally */
+}
+
+.reasons-title {
+  margin-bottom: 0px; /* Adjust the margin as needed */
+  font-size: 13px;
+}
+
+.reasons-content {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  letter-spacing: 1px; 
+  margin-bottom: 70px;
+}
+
+
+.app-header {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
+
+.app-footer {
+  color: rgb(0, 0, 0);
+  height: 45px;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left h1 {
+  font-size: 28px;
+  padding-left: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.navbar-right {
+  /* Add styles for the right side of the navbar if needed */
+}
