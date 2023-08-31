@@ -1,8 +1,11 @@
-// footer.tsx
+
 function Footer() {
   return (
     <footer className="app-footer">
-      <p>&copy; {new Date().getFullYear()} Afreen 💖</p>
+      <p>
+        &copy; {new Date().getFullYear()}{" "}
+        <a href="https://github.com/afreenpoly">Afreen</a>💖
+      </p>
     </footer>
   );
 }
