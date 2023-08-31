@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+# LyF
+LyF is a website that displays random reasons to live, helping to spread positivity and inspiration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Currently, two official plugins are available:
+## Introduction
+Live Your Life is a simple React-based website that showcases random reasons to live. The reasons are fetched from a JSON file and displayed in a rotating manner.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- HTML/CSS
+- JavaScript
+- Netlify (for deployment)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
+1. Clone this repository to your local machine using:
+    https://github.com/afreenpoly/live-your-life.git
 
-- Configure the top-level `parserOptions` property like this:
+2. Navigate to the project directory:
+   cd live-your-life
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+3. Install the project dependencies:
+   npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+1. Start the development server:
+   npm start
+2. Open your web browser and go to `http://localhost:---` to see the website in action.
+
+## Contributing
+Contributions are welcome! If you find a bug or want to enhance the project, feel free to submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+3. Make your changes and commit them:
+   git commit -m "Add your commit message here"
+4. Push your branch to your forked repository:
+5. Create a pull request from your branch to the `main` branch of the original repository.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+ 
+
+
